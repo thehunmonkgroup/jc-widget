@@ -13,7 +13,7 @@ module.exports = function(env, args) {
   const locale = args.locale || null;
   const host = 'http://localhost';
   const defineParams = {
-    API_ENDPOINT: args.endpoint || `${host}:3434`,
+    API_ENDPOINT: args.endpoint || `${host}:3000`,
     CORE_URL: args.coreUrl || `${host}:3333/dist/core2.js`,
     GUEST_SECRET: args.guestSecret || 'guest',
     PUSH_URL: args.pushUrl || `${host}:8080/push.html`,
