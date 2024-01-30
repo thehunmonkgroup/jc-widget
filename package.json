@@ -5,7 +5,7 @@
   "sideEffects": true,
   "scripts": {
     "test": "jest",
-    "build": "rm -rf dist/* && webpack-cli --mode production --config webpack.config.js --env.production",
+    "build": "rm -rf dist/* && webpack-cli --mode production --config webpack.config.js",
     "build-report": "rm -rf dist/* && webpack-cli -p --config webpack.config.js --env.production --locale=en --skipReports=false",
     "build-dev-report": "rm -rf dist/* && webpack-cli --config webpack.config.js --env.development --locale=en --skipReports=false",
     "watch": "webpack-cli --watch --config webpack.config.js --env.development --locale=en",
